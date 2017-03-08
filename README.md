@@ -6,3 +6,15 @@ Both [Typhoon](http://typhoonframework.org) and [Swinject](https://github.com/Sw
 
 This project was developed on macOS 10.12 using Xcode 8.3. It is written in Swift 3, using Objective-C only for the swizzling the view controllers.
 
+## Example
+
+```
+		let storyboard = NSStoryboard(name: "SomeFile", bundle: Bundle(for: type(of: self)))
+		let context = InjectorContext()
+		context.register(MyControllerSubclass.self) { controller in
+			controller.name = "foo"
+		}
+		storyboard.injectionContext = context
+		guard let vc = storyboard.instantiateController(withIdentifier: "storyboardIdentifier") as? MyControllerSubclass else { fatalError() }
+		//any controller loaded from that storyboard will now have any appropriate values injected from context
+```
