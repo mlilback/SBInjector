@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="12113" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--simpleTest-->
+        <scene sceneID="leu-oJ-9KE">
+            <objects>
+                <viewController storyboardIdentifier="simpleTest" id="MCt-eW-Lvd" userLabel="simpleTest" customClass="ControllerWithString" customModule="SBInjectorTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="Fc7-Wb-t7n">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="UnB-8I-mVq" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="-287"/>
+        </scene>
+        <!--Tab View Controller-->
+        <scene sceneID="hBz-8Y-8k5">
+            <objects>
+                <tabViewController storyboardIdentifier="tabTest" selectedTabViewItemIndex="1" id="kNR-Rg-SRA" sceneMemberID="viewController">
+                    <tabViewItems>
+                        <tabViewItem identifier="" id="3ww-pC-onV"/>
+                        <tabViewItem identifier="" id="aJ5-XO-bki"/>
+                    </tabViewItems>
+                    <tabView key="tabView" type="noTabsNoBorder" id="bug-Vc-GAb">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <font key="font" metaFont="message"/>
+                        <tabViewItems/>
+                    </tabView>
+                    <connections>
+                        <segue destination="T2e-cO-Rsi" kind="relationship" relationship="tabItems" id="CiI-Qg-mNR"/>
+                        <segue destination="yk8-R0-K6T" kind="relationship" relationship="tabItems" id="EjF-2X-UhI"/>
+                    </connections>
+                </tabViewController>
+                <customObject id="sRk-6d-Bc2" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110" y="654"/>
+        </scene>
+        <!--Controller2-->
+        <scene sceneID="BJs-IT-tnx">
+            <objects>
+                <viewController id="yk8-R0-K6T" customClass="Controller2" customModule="SBInjectorTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="gdl-N1-evk">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="J8b-Rv-Yvo" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="60"/>
+        </scene>
+        <!--Controller1-->
+        <scene sceneID="mbM-UW-lDa">
+            <objects>
+                <viewController id="T2e-cO-Rsi" customClass="Controller1" customModule="SBInjectorTests" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="v36-ha-OcA">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="fo3-r6-QbM" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
