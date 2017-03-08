@@ -119,9 +119,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		086525DE1E6C52DB00D75B25 /* SBInjector */ = {
+		086525DE1E6C52DB00D75B25 /* SBInjector (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 086525F31E6C52DB00D75B25 /* Build configuration list for PBXNativeTarget "SBInjector" */;
+			buildConfigurationList = 086525F31E6C52DB00D75B25 /* Build configuration list for PBXNativeTarget "SBInjector (macOS)" */;
 			buildPhases = (
 				086525DA1E6C52DB00D75B25 /* Sources */,
 				086525DB1E6C52DB00D75B25 /* Frameworks */,
@@ -132,7 +132,7 @@
 			);
 			dependencies = (
 			);
-			name = SBInjector;
+			name = "SBInjector (macOS)";
 			productName = SBInjector;
 			productReference = 086525DF1E6C52DB00D75B25 /* SBInjector.framework */;
 			productType = "com.apple.product-type.framework";
@@ -190,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				086525DE1E6C52DB00D75B25 /* SBInjector */,
+				086525DE1E6C52DB00D75B25 /* SBInjector (macOS) */,
 				086525E71E6C52DB00D75B25 /* SBInjectorTests */,
 			);
 		};
@@ -239,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		086525EB1E6C52DB00D75B25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 086525DE1E6C52DB00D75B25 /* SBInjector */;
+			target = 086525DE1E6C52DB00D75B25 /* SBInjector (macOS) */;
 			targetProxy = 086525EA1E6C52DB00D75B25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,7 +359,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lilback.SBInjector;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SBInjector;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -383,7 +383,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lilback.SBInjector;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SBInjector;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		086525F31E6C52DB00D75B25 /* Build configuration list for PBXNativeTarget "SBInjector" */ = {
+		086525F31E6C52DB00D75B25 /* Build configuration list for PBXNativeTarget "SBInjector (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				086525F41E6C52DB00D75B25 /* Debug */,
