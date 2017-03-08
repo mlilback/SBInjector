@@ -17,4 +17,4 @@ FOUNDATION_EXPORT const unsigned char SBInjectorVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SBInjector/PublicHeader.h>
 
-#import <SBInjector/NSViewController+SBInjector.h>
+//#import <SBInjector/ViewController+SBInjector.h>

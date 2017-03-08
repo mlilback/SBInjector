@@ -51,6 +51,7 @@ public struct InjectorWrapper<T: ViewControllerType>: Injector {
 var storyboardIdent: UInt8 = 0
 
 public extension NSStoryboard {
+	/// contains the context that will be used for injection by any ViewController that is loaded from the storyboard
 	var injectionContext: InjectorContext? {
 		get { return objc_getAssociatedObject(self, &storyboardIdent) as? InjectorContext }
 		set { objc_setAssociatedObject(self, &storyboardIdent, newValue, .OBJC_ASSOCIATION_RETAIN) }

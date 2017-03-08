@@ -1,18 +1,30 @@
 //
-//  NSViewController+SBInjector.m
+//  ViewController+SBInjector.m
 //  SBInjector
 //
 //  Created by Mark Lilback on 3/5/17.
 //  Copyright © 2017 Mark Lilback. All rights reserved.
 //
 
-#import "NSViewController+SBInjector.h"
-#import <objc/runtime.h>
+//#import "ViewController+SBInjector.h"
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#define ViewControllerType UIViewController
+#else
+#import <Cocoa/Cocoa.h>
+#define ViewControllerType NSViewController
+#endif
+
 #import <SBInjector/SBInjector-Swift.h>
+#import <objc/runtime.h>
 
 static UInt8 injectIdentKey = 0;
 
-@implementation NSViewController (SBInjector)
+@interface ViewControllerType (SBInjectorProps)
+@property (copy, nullable) InjectorContext *injectionContext;
+@end
+
+@implementation ViewControllerType (SBInjector)
 + (void) load {
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{
