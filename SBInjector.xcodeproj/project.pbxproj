@@ -17,7 +17,6 @@
 		0865263B1E70702900D75B25 /* TabsTestControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865263A1E70702900D75B25 /* TabsTestControllers.swift */; };
 		08C2D5C91E70C0150007A02D /* SBInjector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C2D5C01E70C0150007A02D /* SBInjector.framework */; };
 		08C2D5CE1E70C0150007A02D /* SBInjector_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D5CD1E70C0150007A02D /* SBInjector_iOSTests.m */; };
-		08C2D5D01E70C0150007A02D /* SBInjector-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C2D5C21E70C0150007A02D /* SBInjector-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08C2D5D71E70C04F0007A02D /* SBInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086526341E70630100D75B25 /* SBInjector.swift */; };
 		08C2D5D91E70C0560007A02D /* ViewController+SBInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 086526001E6C56F300D75B25 /* ViewController+SBInjector.m */; };
 /* End PBXBuildFile section */
@@ -52,7 +51,6 @@
 		086526341E70630100D75B25 /* SBInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBInjector.swift; sourceTree = "<group>"; };
 		0865263A1E70702900D75B25 /* TabsTestControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsTestControllers.swift; sourceTree = "<group>"; };
 		08C2D5C01E70C0150007A02D /* SBInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBInjector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08C2D5C21E70C0150007A02D /* SBInjector-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBInjector-iOS.h"; sourceTree = "<group>"; };
 		08C2D5C31E70C0150007A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08C2D5C81E70C0150007A02D /* SBInjector-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SBInjector-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C2D5CD1E70C0150007A02D /* SBInjector_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBInjector_iOSTests.m; sourceTree = "<group>"; };
@@ -141,7 +139,6 @@
 		08C2D5C11E70C0150007A02D /* SBInjector-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				08C2D5C21E70C0150007A02D /* SBInjector-iOS.h */,
 				08C2D5C31E70C0150007A02D /* Info.plist */,
 			);
 			path = "SBInjector-iOS";
@@ -171,7 +168,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08C2D5D01E70C0150007A02D /* SBInjector-iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +662,7 @@
 				08C2D5D21E70C0150007A02D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08C2D5D61E70C0150007A02D /* Build configuration list for PBXNativeTarget "SBInjector-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +671,7 @@
 				08C2D5D41E70C0150007A02D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
