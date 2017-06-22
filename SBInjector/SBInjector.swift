@@ -43,7 +43,7 @@ public struct InjectorWrapper<T: ViewControllerType>: Injector {
 		injectors.append(wrapper)
 	}
 	
-	public func inject(into: ViewControllerType) {
+	@objc public func inject(into: ViewControllerType) {
 		injectors.forEach { $0.inject(object: into) }
 	}
 }
@@ -52,7 +52,7 @@ var storyboardIdent: UInt8 = 0
 
 public extension NSStoryboard {
 	/// contains the context that will be used for injection by any ViewController that is loaded from the storyboard
-	var injectionContext: InjectorContext? {
+	@objc var injectionContext: InjectorContext? {
 		get { return objc_getAssociatedObject(self, &storyboardIdent) as? InjectorContext }
 		set { objc_setAssociatedObject(self, &storyboardIdent, newValue, .OBJC_ASSOCIATION_RETAIN) }
 	}

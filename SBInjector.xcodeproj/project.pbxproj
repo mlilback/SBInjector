@@ -259,7 +259,7 @@
 					086525DE1E6C52DB00D75B25 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = V97NV337TR;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					086525E71E6C52DB00D75B25 = {
@@ -270,6 +270,7 @@
 					08C2D5BF1E70C0150007A02D = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = V97NV337TR;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					08C2D5C71E70C0150007A02D = {
@@ -516,7 +517,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -539,7 +540,7 @@
 				PRODUCT_NAME = SBInjector;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -588,6 +589,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOS";
 				PRODUCT_NAME = SBInjector;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -608,6 +610,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOS";
 				PRODUCT_NAME = SBInjector;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
