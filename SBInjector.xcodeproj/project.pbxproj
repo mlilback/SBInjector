@@ -15,10 +15,6 @@
 		086526311E7019C100D75B25 /* ControllerWIthString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086526301E7019C100D75B25 /* ControllerWIthString.swift */; };
 		086526351E70630100D75B25 /* SBInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086526341E70630100D75B25 /* SBInjector.swift */; };
 		0865263B1E70702900D75B25 /* TabsTestControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0865263A1E70702900D75B25 /* TabsTestControllers.swift */; };
-		08C2D5C91E70C0150007A02D /* SBInjector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C2D5C01E70C0150007A02D /* SBInjector.framework */; };
-		08C2D5CE1E70C0150007A02D /* SBInjector_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2D5CD1E70C0150007A02D /* SBInjector_iOSTests.m */; };
-		08C2D5D71E70C04F0007A02D /* SBInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086526341E70630100D75B25 /* SBInjector.swift */; };
-		08C2D5D91E70C0560007A02D /* ViewController+SBInjector.m in Sources */ = {isa = PBXBuildFile; fileRef = 086526001E6C56F300D75B25 /* ViewController+SBInjector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +24,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 086525DE1E6C52DB00D75B25;
 			remoteInfo = SBInjector;
-		};
-		08C2D5CA1E70C0150007A02D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 086525D61E6C52DB00D75B25 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08C2D5BF1E70C0150007A02D;
-			remoteInfo = "SBInjector-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,9 +39,7 @@
 		086526301E7019C100D75B25 /* ControllerWIthString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerWIthString.swift; sourceTree = "<group>"; };
 		086526341E70630100D75B25 /* SBInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBInjector.swift; sourceTree = "<group>"; };
 		0865263A1E70702900D75B25 /* TabsTestControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsTestControllers.swift; sourceTree = "<group>"; };
-		08C2D5C01E70C0150007A02D /* SBInjector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBInjector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C2D5C31E70C0150007A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08C2D5C81E70C0150007A02D /* SBInjector-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SBInjector-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C2D5CD1E70C0150007A02D /* SBInjector_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBInjector_iOSTests.m; sourceTree = "<group>"; };
 		08C2D5CF1E70C0150007A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,21 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				086525E91E6C52DB00D75B25 /* SBInjector.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C2D5BC1E70C0150007A02D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C2D5C51E70C0150007A02D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08C2D5C91E70C0150007A02D /* SBInjector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +79,6 @@
 			children = (
 				086525DF1E6C52DB00D75B25 /* SBInjector.framework */,
 				086525E81E6C52DB00D75B25 /* SBInjectorTests.xctest */,
-				08C2D5C01E70C0150007A02D /* SBInjector.framework */,
-				08C2D5C81E70C0150007A02D /* SBInjector-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,13 +134,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08C2D5BD1E70C0150007A02D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -210,42 +173,6 @@
 			productReference = 086525E81E6C52DB00D75B25 /* SBInjectorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		08C2D5BF1E70C0150007A02D /* SBInjector-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08C2D5D51E70C0150007A02D /* Build configuration list for PBXNativeTarget "SBInjector-iOS" */;
-			buildPhases = (
-				08C2D5BB1E70C0150007A02D /* Sources */,
-				08C2D5BC1E70C0150007A02D /* Frameworks */,
-				08C2D5BD1E70C0150007A02D /* Headers */,
-				08C2D5BE1E70C0150007A02D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SBInjector-iOS";
-			productName = "SBInjector-iOS";
-			productReference = 08C2D5C01E70C0150007A02D /* SBInjector.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		08C2D5C71E70C0150007A02D /* SBInjector-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08C2D5D61E70C0150007A02D /* Build configuration list for PBXNativeTarget "SBInjector-iOSTests" */;
-			buildPhases = (
-				08C2D5C41E70C0150007A02D /* Sources */,
-				08C2D5C51E70C0150007A02D /* Frameworks */,
-				08C2D5C61E70C0150007A02D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				08C2D5CB1E70C0150007A02D /* PBXTargetDependency */,
-			);
-			name = "SBInjector-iOSTests";
-			productName = "SBInjector-iOSTests";
-			productReference = 08C2D5C81E70C0150007A02D /* SBInjector-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -267,17 +194,6 @@
 						DevelopmentTeam = V97NV337TR;
 						ProvisioningStyle = Automatic;
 					};
-					08C2D5BF1E70C0150007A02D = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = V97NV337TR;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-					};
-					08C2D5C71E70C0150007A02D = {
-						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = V97NV337TR;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = 086525D91E6C52DB00D75B25 /* Build configuration list for PBXProject "SBInjector" */;
@@ -294,8 +210,6 @@
 			targets = (
 				086525DE1E6C52DB00D75B25 /* SBInjector (macOS) */,
 				086525E71E6C52DB00D75B25 /* SBInjectorTests */,
-				08C2D5BF1E70C0150007A02D /* SBInjector-iOS */,
-				08C2D5C71E70C0150007A02D /* SBInjector-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,20 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0865262F1E70197800D75B25 /* Injector.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C2D5BE1E70C0150007A02D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C2D5C61E70C0150007A02D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,23 +252,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08C2D5BB1E70C0150007A02D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08C2D5D91E70C0560007A02D /* ViewController+SBInjector.m in Sources */,
-				08C2D5D71E70C04F0007A02D /* SBInjector.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		08C2D5C41E70C0150007A02D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08C2D5CE1E70C0150007A02D /* SBInjector_iOSTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -376,11 +259,6 @@
 			isa = PBXTargetDependency;
 			target = 086525DE1E6C52DB00D75B25 /* SBInjector (macOS) */;
 			targetProxy = 086525EA1E6C52DB00D75B25 /* PBXContainerItemProxy */;
-		};
-		08C2D5CB1E70C0150007A02D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 08C2D5BF1E70C0150007A02D /* SBInjector-iOS */;
-			targetProxy = 08C2D5CA1E70C0150007A02D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -572,74 +450,6 @@
 			};
 			name = Release;
 		};
-		08C2D5D11E70C0150007A02D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = V97NV337TR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "SBInjector-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOS";
-				PRODUCT_NAME = SBInjector;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		08C2D5D21E70C0150007A02D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = V97NV337TR;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "SBInjector-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOS";
-				PRODUCT_NAME = SBInjector;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		08C2D5D31E70C0150007A02D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V97NV337TR;
-				INFOPLIST_FILE = "SBInjector-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		08C2D5D41E70C0150007A02D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V97NV337TR;
-				INFOPLIST_FILE = "SBInjector-iOSTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lilback.SBInjector-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -666,24 +476,6 @@
 			buildConfigurations = (
 				086525F71E6C52DB00D75B25 /* Debug */,
 				086525F81E6C52DB00D75B25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		08C2D5D51E70C0150007A02D /* Build configuration list for PBXNativeTarget "SBInjector-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08C2D5D11E70C0150007A02D /* Debug */,
-				08C2D5D21E70C0150007A02D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		08C2D5D61E70C0150007A02D /* Build configuration list for PBXNativeTarget "SBInjector-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08C2D5D31E70C0150007A02D /* Debug */,
-				08C2D5D41E70C0150007A02D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
