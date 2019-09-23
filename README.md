@@ -4,7 +4,7 @@ This framework is a minimal dependency injection framework for macOS and iOS. It
 
 Both [Typhoon](http://typhoonframework.org) and [Swinject](https://github.com/Swinject/Swinject) are way more complicated than what I needed. Also, Swinject can't inject into subclasses, and it would require a pretty massive rewrite to support that.
 
-This project was developed on macOS 10.12 using Xcode 8.3. It is written in Swift 3, using Objective-C only for the swizzling the view controllers.
+This project was originally developed on macOS 10.12 using Xcode 8.3. It is written in Swift 3, using Objective-C only for the swizzling the view controllers. The latest version was built with XCode 11 on 10.14.6.
 
 ## Example
 
